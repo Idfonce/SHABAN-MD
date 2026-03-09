@@ -13,7 +13,7 @@ ___
 
   
 <p align="center">
-  <a href="https://whatsapp.com/channel/0029VaDaBJGJUM2jS0z59S3s" target="_blank">
+  <a href="https://whatsapp.com/channel/0029Vb7K2c3EgGfOyixuwY3l" target="_blank">
     <img src="./Shaban/channel-update.svg" width="350" alt="Bot Updating — WhatsApp Channel | Join Fast">
   </a>
 </p>
@@ -22,7 +22,7 @@ ___
 
 <p align="center">
 <a href="https://github.com/MRSHABAN45/SHABAN-MD"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=JavaScript&style=square&color=darkpink"></a> &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=SHABAN-MD&label=VIEWS&style=square&color=blue" />
+  <img src="https://komarev.com/ghpvc/?username=MBOKA-TECH&label=VIEWS&style=square&color=blue" />
 </p>
 
 
@@ -66,12 +66,12 @@ ___
       <td><a href="https://bot-hosting.net/?aff=1335487206948864030" target="_blank"><img src="https://img.shields.io/badge/Bot-Hosting-A52A2A?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=000000"/></a></td>
     </tr>
     <tr>
-      <td><a href="https://app.koyeb.com/deploy?name=shaban-md-v6-koyeb&type=git&repository=MRSHABAN45%2FSHABAN-MD&branch=main&builder=dockerfile&instance_type=free&regions&=was&env%5BSESSION_ID%5D=" target="_blank"><img src="https://img.shields.io/badge/KOYEB-APP-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
+      <td><a href="https://app.koyeb.com/deploy?name=mboka-tech-v6-koyeb&type=git&repository=MRSHABAN45%2FSHABAN-MD&branch=main&builder=dockerfile&instance_type=free&regions&=was&env%5BSESSION_ID%5D=" target="_blank"><img src="https://img.shields.io/badge/KOYEB-APP-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
       <td><a href="https://railway.app/new" target="_blank"><img src="https://img.shields.io/badge/Railway-000080?style=for-the-badge&logo=railway&logoColor=white&labelColor=000000"/></a></td>
     </tr>
     <tr>
       <td><a href="https://dashboard.katabump.com/auth/login#3c8183" target="_blank"><img src="https://img.shields.io/badge/KataBump-000000?style=for-the-badge&logo=render&logoColor=white&labelColor=000000&color=FFFF00"/></a></td>
-      <td><a href="https://www.smd-host.site/" target="_blank"><img src="https://img.shields.io/badge/Free-host-CC00FF?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=000000"/></a></td>
+      <td><a href="https://www.mboka-host.site/" target="_blank"><img src="https://img.shields.io/badge/Free-host-CC00FF?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=000000"/></a></td>
     </tr>
   </table>
 </div>
@@ -79,7 +79,7 @@ ___
 <table align="center">
   <tr>
     <td>
-      <a href="https://github.com/iTx-Sarkar/SMD-Render" target="_blank">
+      <a href="https://github.com/iTx-Sarkar/MBOKA-TECH-Render" target="_blank">
         <img alt="Deploy From Render" src="https://img.shields.io/badge/Deploy-Only%20Render%20Repo-4CAF50?style=for-the-badge&logo=render&logoColor=white"/>
       </a>
     </td>
@@ -89,8 +89,8 @@ ___
 <table align="center">
   <tr>
     <td>
-      <a href="https://mini.bandaheali.site" target="_blank">
-        <img alt="BANDAHEALI-MINI" src="https://img.shields.io/badge/BANDAHEALI-MINI%20BOT%20LINK-008080?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+      <a href="https://mini.mbokatech.site" target="_blank">
+        <img alt="MBOKA-TECH-MINI" src="https://img.shields.io/badge/MBOKA%20TECH-MINI%20BOT%20LINK-008080?style=for-the-badge&logo=googlechrome&logoColor=white"/>
       </a>
     </td>
   </tr>
@@ -105,13 +105,38 @@ ___
 </p>
 
 
-> 🔔 Stay Connected For Updates Feature Drops And Tutorials!
+## 📱 Connect With MBOKA TECH:
 
-<a href="https://youtube.com/@mbokatech?si=obru8-RokgCMF6ax" target="_blank">
-  <img src="Shaban/youtube.svg" alt="MBOKA TECH YouTube" width="250"/>
-</a>
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <a href="https://youtube.com/@mbokatech?si=obru8-RokgCMF6ax" target="_blank">
+          <img src="https://img.shields.io/badge/YouTube-MBOKA%20TECH-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/>
+        </a>
+      </td>
+      <td>
+        <a href="https://whatsapp.com/channel/0029Vb7K2c3EgGfOyixuwY3l" target="_blank">
+          <img src="https://img.shields.io/badge/WhatsApp%20Channel-MBOKA%20TECH-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Channel"/>
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
-**📺 Subscribe to MBOKA TECH for tutorials and updates!**
+> 🔔 Stay Connected For Updates, Feature Drops, And Tutorials!
+
+<div align="center">
+  <a href="https://youtube.com/@mbokatech?si=obru8-RokgCMF6ax" target="_blank">
+    <img src="Shaban/youtube.svg" alt="MBOKA TECH YouTube" width="250"/>
+  </a>
+  
+  <a href="https://whatsapp.com/channel/0029Vb7K2c3EgGfOyixuwY3l" target="_blank">
+    <img src="Shaban/whatsapp-channel.svg" alt="MBOKA TECH WhatsApp Channel" width="250"/>
+  </a>
+</div>
+
+**📺 Subscribe to MBOKA TECH on YouTube and join WhatsApp Channel for latest updates!**
 
 <p align="center">
   <img src="https://i.imgur.com/LyHic3i.gif" alt="footer divider"/>
