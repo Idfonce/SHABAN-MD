@@ -1,110 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="200" viewBox="0 0 1200 200" role="img" aria-label="MBOKA TECH DEPLOYMENT">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="200" viewBox="0 0 1200 200" role="img" aria-label="WELCOME TO MBOKA TECH 🎉">
   <defs>
-    <!-- Yellow & Orange gradient for MBOKA TECH -->
-    <linearGradient id="mbokaGrad" x1="0%" y1="0%" x2="200%" y2="0%">
-      <stop offset="0%" stop-color="#FFD700"/>
-      <stop offset="25%" stop-color="#FFA500"/>
-      <stop offset="50%" stop-color="#FF4500"/>
-      <stop offset="75%" stop-color="#FFA500"/>
+    <!-- Smooth moving yellow & orange gradient -->
+    <linearGradient id="grad" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%"   stop-color="#FFD700"/>
+      <stop offset="25%"  stop-color="#FFA500"/>
+      <stop offset="50%"  stop-color="#FF4500"/>
+      <stop offset="75%"  stop-color="#FFA500"/>
       <stop offset="100%" stop-color="#FFD700"/>
-      <animateTransform attributeName="gradientTransform" type="translate" from="-1,0" to="1,0" dur="8s" repeatCount="indefinite"/>
+      <animateTransform attributeName="gradientTransform" type="translate" 
+                        from="-1,0" to="1,0" dur="8s" repeatCount="indefinite"/>
     </linearGradient>
 
-    <!-- Neon gradient for other text (original colors) -->
-    <linearGradient id="neon" x1="0%" y1="0%" x2="200%" y2="0%">
-      <stop offset="0%" stop-color="#00c6ff"/>
-      <stop offset="25%" stop-color="#7a5cff"/>
-      <stop offset="50%" stop-color="#ff2ae0"/>
-      <stop offset="75%" stop-color="#ff8a00"/>
-      <stop offset="100%" stop-color="#00c6ff"/>
-      <animateTransform attributeName="gradientTransform" type="translate" from="-1,0" to="1,0" dur="10s" repeatCount="indefinite"/>
+    <!-- Border gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%"   stop-color="#FFD700"/>
+      <stop offset="50%"  stop-color="#FF4500"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+      <animateTransform attributeName="gradientTransform" type="translate" 
+                        from="-1,0" to="1,0" dur="6s" repeatCount="indefinite"/>
     </linearGradient>
 
-    <!-- Cursor gradient -->
-    <linearGradient id="cursorGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="white"/>
-      <stop offset="100%" stop-color="white"/>
-    </linearGradient>
-
-    <!-- Background gradient -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0a0a0a"/>
-      <stop offset="100%" stop-color="#1a1a1a"/>
-    </linearGradient>
-
-    <!-- Clipping masks for each line -->
-    <clipPath id="clip1"><rect id="r1" x="40" y="0" width="0" height="40"/></clipPath>
-    <clipPath id="clip2"><rect id="r2" x="40" y="40" width="0" height="40"/></clipPath>
-    <clipPath id="clip3"><rect id="r3" x="40" y="80" width="0" height="40"/></clipPath>
-    <clipPath id="clip4"><rect id="r4" x="40" y="120" width="0" height="40"/></clipPath>
-    <clipPath id="clip5"><rect id="r5" x="40" y="160" width="0" height="40"/></clipPath>
+    <!-- Text glow -->
+    <filter id="textGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
   <!-- Background -->
-  <rect width="1200" height="200" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1200" height="200" fill="#0a0a0a"/>
 
-  <!-- MBOKA TECH Title - First line with yellow/orange gradient -->
-  <g clip-path="url(#clip1)">
-    <text x="40" y="30" fill="url(#mbokaGrad)" font-family="Fira Code, Consolas, monospace" font-size="28" font-weight="900">
-      👇 MBOKA TECH DEPLOYMENT 👇
-    </text>
-  </g>
-  <animate xlink:href="#r1" attributeName="width" values="0;520;0" dur="6s" begin="0s;30s;60s" repeatCount="1" fill="freeze"/>
-  <rect id="c1" x="40" y="18" width="2" height="28" fill="url(#cursorGrad)" opacity="0">
-    <animate attributeName="x" values="40;560;40" dur="6s" begin="0s;30s;60s" fill="freeze"/>
-    <animate attributeName="opacity" values="1;0;1" dur="0.7s" begin="0s;30s;60s" repeatCount="9"/>
-  </rect>
+  <!-- Animated border -->
+  <rect x="10" y="10" width="1180" height="180" rx="30" fill="none" stroke="url(#borderGrad)" stroke-width="4"/>
 
-  <!-- Line 2 - Original colors (starts at 6s) -->
-  <g clip-path="url(#clip2)">
-    <text x="40" y="70" fill="url(#neon)" font-family="Fira Code, Consolas, monospace" font-size="22" font-weight="700">
-      🕹️ HEROKU RENDER RAILWAY PANEL VPS CLOUD 🕹️
-    </text>
-  </g>
-  <animate xlink:href="#r2" attributeName="width" values="0;520;0" dur="6s" begin="6s;36s;66s" repeatCount="1" fill="freeze"/>
-  <rect id="c2" x="40" y="58" width="2" height="28" fill="url(#cursorGrad)" opacity="0">
-    <animate attributeName="x" values="40;560;40" dur="6s" begin="6s;36s;66s" fill="freeze"/>
-    <animate attributeName="opacity" values="1;0;1" dur="0.7s" begin="6s;36s;66s" repeatCount="9"/>
-  </rect>
+  <!-- WELCOME TO text with more space -->
+  <text x="600" y="70" text-anchor="middle" 
+        font-family="Segoe UI, Inter, system-ui, Arial Black, sans-serif" 
+        font-size="48" font-weight="900" fill="white" filter="url(#textGlow)">
+    WELCOME TO
+  </text>
 
-  <!-- Line 3 - Original colors (starts at 12s) -->
-  <g clip-path="url(#clip3)">
-    <text x="40" y="110" fill="url(#neon)" font-family="Fira Code, Consolas, monospace" font-size="22" font-weight="700">
-      🛜 LIGHTWEIGHT SMOOTHLY WORKING 🛜
-    </text>
-  </g>
-  <animate xlink:href="#r3" attributeName="width" values="0;520;0" dur="6s" begin="12s;42s;72s" repeatCount="1" fill="freeze"/>
-  <rect id="c3" x="40" y="98" width="2" height="28" fill="url(#cursorGrad)" opacity="0">
-    <animate attributeName="x" values="40;560;40" dur="6s" begin="12s;42s;72s" fill="freeze"/>
-    <animate attributeName="opacity" values="1;0;1" dur="0.7s" begin="12s;42s;72s" repeatCount="9"/>
-  </rect>
-
-  <!-- Line 4 - Original colors (starts at 18s) -->
-  <g clip-path="url(#clip4)">
-    <text x="40" y="150" fill="url(#neon)" font-family="Fira Code, Consolas, monospace" font-size="22" font-weight="700">
-      🔁 WORKING 24/7 🔁
-    </text>
-  </g>
-  <animate xlink:href="#r4" attributeName="width" values="0;520;0" dur="6s" begin="18s;48s;78s" repeatCount="1" fill="freeze"/>
-  <rect id="c4" x="40" y="138" width="2" height="28" fill="url(#cursorGrad)" opacity="0">
-    <animate attributeName="x" values="40;560;40" dur="6s" begin="18s;48s;78s" fill="freeze"/>
-    <animate attributeName="opacity" values="1;0;1" dur="0.7s" begin="18s;48s;78s" repeatCount="9"/>
-  </rect>
-
-  <!-- Line 5 - Changed to "SUBSCRIBE MBOKA TECH" (starts at 24s) -->
-  <g clip-path="url(#clip5)">
-    <text x="40" y="190" fill="url(#neon)" font-family="Fira Code, Consolas, monospace" font-size="22" font-weight="700">
-      ⏬ SUBSCRIBE MBOKA TECH ⏬
-    </text>
-  </g>
-  <animate xlink:href="#r5" attributeName="width" values="0;520;0" dur="6s" begin="24s;54s;84s" repeatCount="1" fill="freeze"/>
-  <rect id="c5" x="40" y="178" width="2" height="28" fill="url(#cursorGrad)" opacity="0">
-    <animate attributeName="x" values="40;560;40" dur="6s" begin="24s;54s;84s" fill="freeze"/>
-    <animate attributeName="opacity" values="1;0;1" dur="0.7s" begin="24s;54s;84s" repeatCount="9"/>
-  </rect>
-
-  <!-- Master clock (keeps the whole 30s cycle repeating forever) -->
-  <rect x="-1" y="-1" width="1" height="1" fill="none">
-    <animate attributeName="width" values="1;1" dur="30s" repeatCount="indefinite"/>
-  </rect>
+  <!-- MBOKA TECH text with smooth moving yellow/orange gradient -->
+  <text x="600" y="140" text-anchor="middle" 
+        font-family="Segoe UI, Inter, system-ui, Arial Black, sans-serif" 
+        font-size="72" font-weight="900" fill="url(#grad)" filter="url(#textGlow)">
+    MBOKA TECH
+  </text>
 </svg>
