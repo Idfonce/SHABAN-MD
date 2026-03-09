@@ -141,7 +141,7 @@
   <!-- Line 5 (starts at 24s) -->
   <g clip-path="url(#clip5)">
     <text x="40" y="40" fill="url(#neon)" font-family="Fira Code, Consolas, monospace" font-size="22" font-weight="700">
-     ⏬ SUBSCRIBE MBIKA TECH⏬
+     ⏬ SUBSCRIBE MBOKA TECH⏬
     </text>
   </g>
   <animate xlink:href="#r5" attributeName="width" values="0;520;0" dur="6s" begin="24s;54s;84s" repeatCount="1" fill="freeze"/>
