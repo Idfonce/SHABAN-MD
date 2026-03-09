@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="420" height="90" viewBox="0 0 420 90" role="img" aria-label="Subscribe SHABAN MD YouTube">
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="90" viewBox="0 0 420 90" role="img" aria-label="Subscribe MBOKA TECH YouTube">
   <defs>
-    <!-- Neon gradient -->
+    <!-- Neon gradient - changed to MBOKA TECH colors (purple + cyan) -->
     <linearGradient id="neon" x1="0%" y1="0%" x2="200%" y2="0%">
-      <stop offset="0%" stop-color="#ff00ff"/>
-      <stop offset="25%" stop-color="#00ffff"/>
-      <stop offset="50%" stop-color="#00ff87"/>
-      <stop offset="75%" stop-color="#ffff00"/>
-      <stop offset="100%" stop-color="#ff00ff"/>
+      <stop offset="0%" stop-color="#8A2BE2"/> <!-- Purple -->
+      <stop offset="25%" stop-color="#00FFFF"/> <!-- Cyan -->
+      <stop offset="50%" stop-color="#4B0082"/> <!-- Indigo -->
+      <stop offset="75%" stop-color="#00BFFF"/> <!-- Deep Sky Blue -->
+      <stop offset="100%" stop-color="#8A2BE2"/> <!-- Purple -->
       <animateTransform attributeName="gradientTransform" type="translate"
                         from="-1,0" to="1,0" dur="6s" repeatCount="indefinite"/>
     </linearGradient>
@@ -20,7 +20,7 @@
                         from="-1,0" to="1,0" dur="3s" repeatCount="indefinite"/>
     </linearGradient>
 
-    <!-- YouTube red -->
+    <!-- YouTube red (keeping this) -->
     <linearGradient id="ytRed" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FF3D3D"/>
       <stop offset="60%" stop-color="#FF1E1E"/>
@@ -37,36 +37,66 @@
                 0 0 0 0.9 0" result="c"/>
       <feMerge><feMergeNode in="c"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    
+    <!-- Custom MBOKA TECH glow effect -->
+    <filter id="mbokaGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="1 0 0 0 0
+                0 0.5 0 0 0
+                0 0 1 0 0
+                0 0 0 0.8 0" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
-  <!-- Frame -->
+  <!-- Frame with enhanced purple/cyan theme -->
   <rect x="6" y="6" width="408" height="78" rx="16" fill="#0A0A0A" stroke="url(#neon)" stroke-width="3">
     <animate attributeName="stroke-width" values="3;5;3" dur="3s" repeatCount="indefinite"/>
   </rect>
   <rect x="6" y="6" width="408" height="78" rx="16" fill="url(#shine)"/>
 
-  <!-- Clickable group -->
-  <a href="https://youtube.com/@mrshaban282?si=ZVANSbKM0yajAbl_" target="_blank" rel="noopener noreferrer">
+  <!-- Clickable group with YOUR YouTube link -->
+  <a href="https://youtube.com/@mbokatech?si=obru8-RokgCMF6ax" target="_blank" rel="noopener noreferrer">
     <g transform="translate(20,20)" cursor="pointer">
       <!-- Play button circle -->
       <circle cx="25" cy="25" r="25" fill="url(#ytRed)" filter="url(#glow)"/>
-      <!-- Pulse ring -->
-      <circle cx="25" cy="25" r="25" fill="none" stroke="#fff" stroke-width="2" opacity="0.5">
+      <!-- Pulse ring with cyan color -->
+      <circle cx="25" cy="25" r="25" fill="none" stroke="#00FFFF" stroke-width="2" opacity="0.7">
         <animate attributeName="r" values="25;32;25" dur="1.6s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.5;0;0.5" dur="1.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.7;0;0.7" dur="1.6s" repeatCount="indefinite"/>
       </circle>
       <!-- Play icon -->
       <polygon points="18,13 38,25 18,37" fill="#fff"/>
       
-      <!-- Text -->
+      <!-- "Subscribe" text with glow -->
       <text x="70" y="20" font-family="Segoe UI, Inter, system-ui, Arial, sans-serif"
             font-size="22" font-weight="900" fill="#fff" filter="url(#glow)">
         Subscribe
       </text>
+      
+      <!-- CHANGED: "MBOKA TECH YouTube" with custom styling -->
       <text x="70" y="46" font-family="Segoe UI, Inter, system-ui, Arial, sans-serif"
-            font-size="16" font-weight="700" fill="url(#neon)">
-        SHABAN MD YouTube
+            font-size="18" font-weight="800" fill="url(#neon)" filter="url(#mbokaGlow)">
+        MBOKA TECH 📺
+      </text>
+      
+      <!-- Added subtle "YouTube" text below -->
+      <text x="70" y="64" font-family="Segoe UI, Inter, system-ui, Arial, sans-serif"
+            font-size="12" font-weight="500" fill="#888888">
+        youtube.com/@mbokatech
       </text>
     </g>
   </a>
+  
+  <!-- Small decorative elements -->
+  <circle cx="380" cy="45" r="3" fill="#00FFFF" opacity="0.6">
+    <animate attributeName="r" values="3;6;3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="360" cy="70" r="2" fill="#8A2BE2" opacity="0.6">
+    <animate attributeName="r" values="2;5;2" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
 </svg>
