@@ -44,41 +44,6 @@
   <img src="https://img.shields.io/github/forks/MRSHABAN45/SHABAN-MD?style=for-the-badge&color=orange" />
 </p>
 
----
-
-## 🎯 FEATURES
-
-<div align="center">
-  <table>
-    <tr>
-      <td>✅ Group Management</td>
-      <td>✅ Media Downloader</td>
-      <td>✅ Sticker Maker</td>
-    </tr>
-    <tr>
-      <td>✅ AI Chatbot</td>
-      <td>✅ YouTube Audio/Video</td>
-      <td>✅ Instagram Downloader</td>
-    </tr>
-    <tr>
-      <td>✅ Facebook Downloader</td>
-      <td>✅ TikTok Downloader</td>
-      <td>✅ Twitter Downloader</td>
-    </tr>
-    <tr>
-      <td>✅ Weather Updates</td>
-      <td>✅ News Updates</td>
-      <td>✅ Wikipedia Search</td>
-    </tr>
-    <tr>
-      <td>✅ Movie Information</td>
-      <td>✅ Anime Search</td>
-      <td>✅ And Much More!</td>
-    </tr>
-  </table>
-</div>
-
----
 
 ## 🚀 DEPLOYMENT METHODS
 
