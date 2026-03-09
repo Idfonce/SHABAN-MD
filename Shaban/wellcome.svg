@@ -1,123 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="200" viewBox="0 0 1200 200" role="img" aria-label="WELCOME TO MBOKA TECH 🎉">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200">
+  <!-- Background with gradient -->
   <defs>
-    <!-- Yellow & Orange gradient for MBOKA TECH -->
-    <linearGradient id="mbokaGrad" x1="0%" y1="0%" x2="200%" y2="0%">
-      <stop offset="0%"   stop-color="#FFD700"/>
-      <stop offset="25%"  stop-color="#FFA500"/>
-      <stop offset="50%"  stop-color="#FF8C00"/>
-      <stop offset="75%"  stop-color="#FF4500"/>
-      <stop offset="100%" stop-color="#FFD700"/>
-      <animateTransform attributeName="gradientTransform" type="translate" from="-1,0" to="1,0" dur="8s" repeatCount="indefinite"/>
-    </linearGradient>
-
-    <!-- Background gradient -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="200%" y2="0%">
-      <stop offset="0%"   stop-color="#4B0082"/>
-      <stop offset="25%"  stop-color="#8A2BE2"/>
-      <stop offset="50%"  stop-color="#FF8C00"/>
-      <stop offset="75%"  stop-color="#FF4500"/>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4B0082"/>
+      <stop offset="50%" stop-color="#FF4500"/>
       <stop offset="100%" stop-color="#4B0082"/>
-      <animateTransform attributeName="gradientTransform" type="translate" from="-1,0" to="1,0" dur="12s" repeatCount="indefinite"/>
     </linearGradient>
-
-    <!-- Border gradient -->
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="200%" y2="0%">
-      <stop offset="0%"   stop-color="#FFD700"/>
-      <stop offset="33%"  stop-color="#FFA500"/>
-      <stop offset="66%"  stop-color="#FF4500"/>
+    
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#FF4500"/>
       <stop offset="100%" stop-color="#FFD700"/>
-      <animateTransform attributeName="gradientTransform" type="translate" from="-1,0" to="1,0" dur="5s" repeatCount="indefinite"/>
-    </linearGradient>
-
-    <!-- Text glow -->
-    <filter id="textGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Enhanced glow for MBOKA TECH -->
-    <filter id="mbokaGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0 0.5 0.5 0 0 0 0 0 0 0 0 0 0 0 0.8 0" result="glow"/>
-      <feMerge>
-        <feMergeNode in="glow"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Dots gradient -->
-    <linearGradient id="dotsGrad" x1="0%" y1="0%" x2="200%" y2="0%">
-      <stop offset="0%"   stop-color="#FFD700"/>
-      <stop offset="50%"  stop-color="#FF4500"/>
-      <stop offset="100%" stop-color="#FFD700"/>
-      <animateTransform attributeName="gradientTransform" type="translate" from="-1,0" to="1,0" dur="7s" repeatCount="indefinite"/>
     </linearGradient>
   </defs>
-
-  <!-- Background with pulse effect -->
-  <rect x="0" y="0" width="1200" height="200" fill="url(#bgGrad)" opacity="0.9">
-    <animate attributeName="opacity" values="0.9;1;0.9" dur="4s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- Animated border -->
-  <rect x="10" y="10" width="1180" height="180" rx="30" fill="none" stroke="url(#borderGrad)" stroke-width="6">
-    <animate attributeName="stroke-width" values="6;10;6" dur="3s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- Main WELCOME text -->
-  <text x="50%" y="35%" text-anchor="middle" dominant-baseline="middle"
-        font-family="Segoe UI, Inter, system-ui, Arial Black, sans-serif" 
-        font-size="48" font-weight="900" fill="white" filter="url(#textGlow)">
-    WELCOME TO
+  
+  <!-- Background rectangle -->
+  <rect width="1200" height="200" fill="url(#bgGrad)"/>
+  
+  <!-- Border -->
+  <rect x="10" y="10" width="1180" height="180" rx="30" fill="none" stroke="#FFD700" stroke-width="4"/>
+  
+  <!-- Welcome text -->
+  <text x="600" y="80" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="48" fill="white">
+    WELCOME
   </text>
-
-  <!-- MBOKA TECH with yellow/orange gradient -->
-  <text x="50%" y="60%" text-anchor="middle" dominant-baseline="middle"
-        font-family="Segoe UI, Inter, system-ui, Arial Black, sans-serif" 
-        font-size="72" font-weight="900" fill="url(#mbokaGrad)" filter="url(#mbokaGlow)">
+  
+  <!-- MBOKA TECH text -->
+  <text x="600" y="140" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="72" font-weight="bold" fill="url(#textGrad)">
     MBOKA TECH
-    <animate attributeName="opacity" values="0.9;1;0.9" dur="3s" repeatCount="indefinite"/>
   </text>
-
-  <!-- Subtext -->
-  <text x="50%" y="80%" text-anchor="middle" dominant-baseline="middle"
-        font-family="Segoe UI, Inter, system-ui" font-size="24" font-weight="700"
-        fill="url(#dotsGrad)" filter="url(#textGlow)">
-    🚀 Premium WhatsApp Bot • 24/7 Active • Fast & Reliable 🚀
-  </text>
-
-  <!-- Left side stars -->
-  <g fill="url(#dotsGrad)" opacity="0.8">
-    <circle cx="100" cy="50" r="6">
-      <animate attributeName="r" values="6;10;6" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="150" cy="150" r="5">
-      <animate attributeName="r" values="5;8;5" dur="2.3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="80" cy="120" r="4">
-      <animate attributeName="r" values="4;7;4" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
-    
-    <!-- Right side stars -->
-    <circle cx="1100" cy="60" r="7">
-      <animate attributeName="r" values="7;12;7" dur="2.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1050" cy="140" r="5">
-      <animate attributeName="r" values="5;9;5" dur="2.1s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1150" cy="100" r="6">
-      <animate attributeName="r" values="6;10;6" dur="1.9s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- Animated sparkles -->
-  <g font-size="24" fill="url(#dotsGrad)" filter="url(#textGlow)">
-    <text x="250" y="40" opacity="0.7">✨</text>
-    <text x="950" y="40" opacity="0.7">✨</text>
-    <text x="300" y="170" opacity="0.7">✨</text>
-    <text x="900" y="170" opacity="0.7">✨</text>
-  </g>
 </svg>
