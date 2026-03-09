@@ -1,11 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="200" viewBox="0 0 1200 200" role="img" aria-label="WELCOME TO MBOKA TECH 🎉">
   <defs>
-    <!-- Yellow & Orange gradient -->
+    <!-- Smooth moving yellow & orange gradient -->
     <linearGradient id="grad" x1="0%" y1="0%" x2="200%" y2="0%">
       <stop offset="0%"   stop-color="#FFD700"/>
+      <stop offset="25%"  stop-color="#FFA500"/>
       <stop offset="50%"  stop-color="#FF4500"/>
+      <stop offset="75%"  stop-color="#FFA500"/>
       <stop offset="100%" stop-color="#FFD700"/>
-      <animateTransform attributeName="gradientTransform" type="translate" from="-1,0" to="1,0" dur="10s" repeatCount="indefinite"/>
+      <animateTransform attributeName="gradientTransform" type="translate" 
+                        from="-1,0" to="1,0" dur="8s" repeatCount="indefinite"/>
     </linearGradient>
 
     <!-- Border gradient -->
@@ -13,7 +16,8 @@
       <stop offset="0%"   stop-color="#FFD700"/>
       <stop offset="50%"  stop-color="#FF4500"/>
       <stop offset="100%" stop-color="#FFD700"/>
-      <animateTransform attributeName="gradientTransform" type="translate" from="-1,0" to="1,0" dur="6s" repeatCount="indefinite"/>
+      <animateTransform attributeName="gradientTransform" type="translate" 
+                        from="-1,0" to="1,0" dur="6s" repeatCount="indefinite"/>
     </linearGradient>
 
     <!-- Text glow -->
@@ -32,15 +36,15 @@
   <!-- Animated border -->
   <rect x="10" y="10" width="1180" height="180" rx="30" fill="none" stroke="url(#borderGrad)" stroke-width="4"/>
 
-  <!-- WELCOME TO text -->
-  <text x="50%" y="40%" text-anchor="middle" dominant-baseline="middle"
+  <!-- WELCOME TO text with more space above -->
+  <text x="600" y="70" text-anchor="middle" 
         font-family="Segoe UI, Inter, system-ui, Arial Black, sans-serif" 
         font-size="48" font-weight="900" fill="white" filter="url(#textGlow)">
     WELCOME TO
   </text>
 
-  <!-- MBOKA TECH text with yellow/orange gradient -->
-  <text x="50%" y="65%" text-anchor="middle" dominant-baseline="middle"
+  <!-- MBOKA TECH text with smooth moving gradient and more space -->
+  <text x="600" y="140" text-anchor="middle" 
         font-family="Segoe UI, Inter, system-ui, Arial Black, sans-serif" 
         font-size="72" font-weight="900" fill="url(#grad)" filter="url(#textGlow)">
     MBOKA TECH
