@@ -2,12 +2,12 @@
   
 ______
 
-[![Shaban](https://raw.githubusercontent.com/MRSHABAN45/SHABAN-MD/main/Shaban/mr.svg)](https://whatsapp.com/channel/0029VazjYjoDDmFZTZ9Ech3O)
+[![MBOKA TECH](https://raw.githubusercontent.com/MRSHABAN45/SHABAN-MD/main/Shaban/mr.svg)](https://youtube.com/@mbokatech?si=obru8-RokgCMF6ax)
 ___ 
 
 <p align="center">
-  <a href="https://github.com/MRSHABAN45" target="_blank">
-    <img src="./Shaban/dev-gold-mini.svg" width="300" alt="Developer — MR SHABAN (Gold 3D)">
+  <a href="https://youtube.com/@mbokatech?si=obru8-RokgCMF6ax" target="_blank">
+    <img src="./Shaban/dev-gold-mini.svg" width="300" alt="Developer — MBOKA TECH (Gold 3D)">
   </a>
 </p>
 
@@ -56,7 +56,7 @@ ___
 -------------
 
 <p align="center">
-  <img src="./Shaban/deployment.svg" width="600" alt="SHABAN MD — News Ticker Typing">
+  <img src="./Shaban/deployment.svg" width="600" alt="MBOKA TECH BOT — News Ticker Typing">
 </p>
 
 <div align="center">
@@ -98,50 +98,6 @@ ___
 
 -------------
 
-**_✠ FREE DEPLOYMENT OF SHABAN MD GITHUB WORKFLOW CODE NEW ADD ERROR FIXED ✠_**
-
-```
-
-name: Node.js CI
-
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [24.x]
-
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        check-latest: true
-
-    - name: Install dependencies
-      run: npm install
-
-    - name: Build project (optional)
-      run: npm run build || echo "No build script found, skipping..."
-
-    - name: Start application
-      run: npm start
-
-```
-
 -------
 
 <p align="center">
@@ -151,9 +107,11 @@ jobs:
 
 > 🔔 Stay Connected For Updates Feature Drops And Tutorials!
 
-<a href="https://youtube.com/@mrshaban282?si=ZVANSbKM0yajAbl_" target="_blank">
-  <img src="Shaban/youtube.svg" alt="YouTube" width="250"/>
+<a href="https://youtube.com/@mbokatech?si=obru8-RokgCMF6ax" target="_blank">
+  <img src="Shaban/youtube.svg" alt="MBOKA TECH YouTube" width="250"/>
 </a>
+
+**📺 Subscribe to MBOKA TECH for tutorials and updates!**
 
 <p align="center">
   <img src="https://i.imgur.com/LyHic3i.gif" alt="footer divider"/>
