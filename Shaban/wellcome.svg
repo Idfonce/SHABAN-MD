@@ -2,25 +2,25 @@
   <defs>
     <!-- Yellow & Orange gradient for MBOKA TECH -->
     <linearGradient id="mbokaGrad" x1="0%" y1="0%" x2="200%" y2="0%">
-      <stop offset="0%"   stop-color="#FFD700"/> <!-- Gold -->
-      <stop offset="25%"  stop-color="#FFA500"/> <!-- Orange -->
-      <stop offset="50%"  stop-color="#FF8C00"/> <!-- Dark Orange -->
-      <stop offset="75%"  stop-color="#FF4500"/> <!-- Orange Red -->
-      <stop offset="100%" stop-color="#FFD700"/> <!-- Back to Gold -->
+      <stop offset="0%"   stop-color="#FFD700"/>
+      <stop offset="25%"  stop-color="#FFA500"/>
+      <stop offset="50%"  stop-color="#FF8C00"/>
+      <stop offset="75%"  stop-color="#FF4500"/>
+      <stop offset="100%" stop-color="#FFD700"/>
       <animateTransform attributeName="gradientTransform" type="translate" from="-1,0" to="1,0" dur="8s" repeatCount="indefinite"/>
     </linearGradient>
 
-    <!-- Background gradient (keeping some color but making it complement yellow/orange) -->
+    <!-- Background gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="200%" y2="0%">
-      <stop offset="0%"   stop-color="#4B0082"/> <!-- Indigo -->
-      <stop offset="25%"  stop-color="#8A2BE2"/> <!-- Purple -->
-      <stop offset="50%"  stop-color="#FF8C00"/> <!-- Dark Orange -->
-      <stop offset="75%"  stop-color="#FF4500"/> <!-- Orange Red -->
-      <stop offset="100%" stop-color="#4B0082"/> <!-- Back to Indigo -->
+      <stop offset="0%"   stop-color="#4B0082"/>
+      <stop offset="25%"  stop-color="#8A2BE2"/>
+      <stop offset="50%"  stop-color="#FF8C00"/>
+      <stop offset="75%"  stop-color="#FF4500"/>
+      <stop offset="100%" stop-color="#4B0082"/>
       <animateTransform attributeName="gradientTransform" type="translate" from="-1,0" to="1,0" dur="12s" repeatCount="indefinite"/>
     </linearGradient>
 
-    <!-- Border gradient - yellow/orange theme -->
+    <!-- Border gradient -->
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="200%" y2="0%">
       <stop offset="0%"   stop-color="#FFD700"/>
       <stop offset="33%"  stop-color="#FFA500"/>
@@ -48,7 +48,7 @@
       </feMerge>
     </filter>
 
-    <!-- Dots gradient - yellow/orange -->
+    <!-- Dots gradient -->
     <linearGradient id="dotsGrad" x1="0%" y1="0%" x2="200%" y2="0%">
       <stop offset="0%"   stop-color="#FFD700"/>
       <stop offset="50%"  stop-color="#FF4500"/>
@@ -74,7 +74,7 @@
     WELCOME TO
   </text>
 
-  <!-- MBOKA TECH with yellow/orange gradient - BIG and BOLD -->
+  <!-- MBOKA TECH with yellow/orange gradient -->
   <text x="50%" y="60%" text-anchor="middle" dominant-baseline="middle"
         font-family="Segoe UI, Inter, system-ui, Arial Black, sans-serif" 
         font-size="72" font-weight="900" fill="url(#mbokaGrad)" filter="url(#mbokaGlow)">
@@ -82,14 +82,13 @@
     <animate attributeName="opacity" values="0.9;1;0.9" dur="3s" repeatCount="indefinite"/>
   </text>
 
-  <!-- Subtext with yellow/orange -->
+  <!-- Subtext -->
   <text x="50%" y="80%" text-anchor="middle" dominant-baseline="middle"
         font-family="Segoe UI, Inter, system-ui" font-size="24" font-weight="700"
         fill="url(#dotsGrad)" filter="url(#textGlow)">
     🚀 Premium WhatsApp Bot • 24/7 Active • Fast & Reliable 🚀
   </text>
 
-  <!-- Decorative elements in yellow/orange -->
   <!-- Left side stars -->
   <g fill="url(#dotsGrad)" opacity="0.8">
     <circle cx="100" cy="50" r="6">
