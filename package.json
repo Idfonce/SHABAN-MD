@@ -1,25 +1,24 @@
 {
-  "name": "SHABAN-MD",
+  "name": "MBOKA-TECH-MD",
   "version": "6.0.0",
-  "description": "WHATSAPP BOT CREATED BY MR SHABAN⁴⁵",
+  "description": "MBOKA TECH WhatsApp Bot - Premium Multi-Device Bot (Based on SHABAN-MD)",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name SHABAN-MD",
-    "stop": "pm2 stop SHABAN-MD",
-    "restart": "pm2 restart SHABAN-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name MBOKA-TECH-MD",
+    "stop": "pm2 stop MBOKA-TECH-MD",
+    "restart": "pm2 restart MBOKA-TECH-MD"
   },
   "keywords": [
-    "shaban-md",
+    "mboka-tech",
     "whatsapp-bot",
     "baileys-bot",
     "multi-device-bot",
     "nodejs-whatsapp-bot",
-    "mr-shaban",
-    "shaban-ai",
+    "mboka-tech-md",
+    "shaban-md",
     "bandaheali-ai",
     "whatsapp-md-bot",
     "baileys-whatsapp",
-    "shaban-md-whatsapp-bot",
     "chatbot"
   ],
   "dependencies": {
